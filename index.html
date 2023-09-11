@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal Justice</title>
+    <link rel="shortcut icon" href="./images/business.png" type="image/x-icon">
+    <!-- ------------font-awesome-link------------ -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- ------------google-font-link------------ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- ------------tailwind-daisy-ui-link------------ -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.7.3/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- slider -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/tw-elements.min.css" />
+    <style>
+        .garamond {
+            font-family: 'EB Garamond', serif;
+        }
+    </style>
+</head>
+
+<body class="garamond">
+    <header>
+        <!-- -----------------nav-part-start--------------------- -->
+        <nav>
+            <div class="navbar bg-base-100 max-w-screen-2xl mx-auto py-8 ">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <label tabindex="0" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </label>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-gray-100 rounded-box w-52 ">
+                            <li><a>Home</a></li>
+                            <li><a>Service</a></li>
+                            <li><a>Cases</a></li>
+                            <li><a>Blog</a></li>
+                            <li><a>Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <a class="bg-inherit cursor-pointer">
+                        <img class="w-20 md:w-full" src="./images/logo2.png" alt="">
+                    </a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-2 text-xl font-medium">
+                        <li><a
+                                class="border-2 border-transparent hover:border-2 hover:border-[#B68C5A] hover:text-[#B68C5A] hover:bg-white">Home</a>
+                        </li>
+                        <li><a
+                                class="border-2 border-transparent hover:border-2 hover:border-[#B68C5A] hover:text-[#B68C5A] hover:bg-white">Service
+                                <i class="fa-solid fa-chevron-right"></i></a></li>
+                        <li><a
+                                class="border-2 border-transparent hover:border-2 hover:border-[#B68C5A] hover:text-[#B68C5A] hover:bg-white">Cases
+                                <i class="fa-solid fa-chevron-right"></i></a></li>
+                        <li><a
+                                class="border-2 border-transparent hover:border-2 hover:border-[#B68C5A] hover:text-[#B68C5A] hover:bg-white">Blog
+                                <i class="fa-solid fa-chevron-right"></i></a></li>
+                        <li><a
+                                class="border-2 border-transparent hover:border-2 hover:border-[#B68C5A] hover:text-[#B68C5A] hover:bg-white">Contact
+                                Us <i class="fa-solid fa-chevron-right"></i></a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end flex flex-row">
+                    <a
+                        class="btn bg-[#B68C5A] text-white font-semibold capitalize text-xl hover:border-2 hover:border-[#B68C5A] hover:text-[#B68C5A] hover:bg-white">Free
+                        Consultation</a>
+                </div>
+            </div>
+        </nav>
+        <!-- -----------------nav-part-end--------------------- -->
+        <!-- -----------------banner-part-start--------------------- -->
+        <div class="hero max-w-screen-2xl mx-auto md:py-24 opacity-90"
+            style="background-image: url(./images/banner.png);">
+            <div class="hero-content text-center text-neutral-content text-white">
+                <div class="md:max-w-xl">
+                    <h1 class="mb-5 text-6xl font-bold roboto">We Provide Effective Legal Solutions</h1>
+                    <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
+                        exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                    <input class="py-2 rounded-sm pl-2 w-40 lg:w-80" type="email" placeholder="Search Your ID" name=""
+                        id="">
+                    <button
+                        class="py-2 px-8 rounded-md bg-[#B68C5A] text-white font-semibold capitalize text-xl border-2 border-[#B68C5A] hover:bg-transparent hover:text-white hover:border-2 hover:border-white ">Search</button>
+                </div>
+            </div>
+        </div>
+        <!-- -----------------banner-part-end--------------------- -->
+
+    </header>
+    <main>
+        <!-- ------------------feature-part-start-------------------- -->
+        <div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+            <!-- -----------------feature-title----------------- -->
+            <div class="max-w-xl mb-10 md:mx-auto text-center lg:max-w-2xl md:mb-12">
+                <h2
+                    class="max-w-lg mb-6 mt-8 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
+                    <span class="relative inline-block">
+                        <svg viewBox="0 0 52 24" fill="currentColor"
+                            class="absolute top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-blue-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block">
+                            <defs>
+                                <pattern id="18302e52-9e2a-4c8e-9550-0cbb21b38e55" x="0" y="0" width=".135"
+                                    height=".30">
+                                    <circle cx="1" cy="1" r=".7"></circle>
+                                </pattern>
+                            </defs>
+                            <rect fill="url(#18302e52-9e2a-4c8e-9550-0cbb21b38e55)" width="52" height="24"></rect>
+                        </svg>
+                        <span class="relative garamond text-5xl">The Legal Practice Area</span>
+                    </span>
+                </h2>
+                <p class="text-base text-gray-700 md:text-lg">
+                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                    alteration in some form, by injected humour.
+                </p>
+            </div>
+            <!-- -----------------feature-content----------------- -->
+            <div class="px-8 py-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+                <div class="grid row-gap-8 sm:row-gap-0 sm:grid-cols-2 lg:grid-cols-3">
+                    <div class="p-8 border-b sm:border-r hover:bg-slate-100">
+                        <div class="max-w-md text-center">
+                            <div class="flex items-center justify-center w-16 h-16 mx-auto mb-4  sm:w-16 sm:h-16">
+                                <img src="./images/business.png" alt="">
+                            </div>
+                            <h6 class="mb-2 font-bold text-3xl leading-5">Business Law</h6>
+                            <p class="mb-4 text-sm text-gray-900">
+                                There are many variations of passages of Lorem Ipsum available, but the majority have
+                                suffered alteration in some form, by injected humour.
+                            </p>
+                            <i class="fa-solid fa-circle-arrow-right fa-xl" style="color: #B68C5A;"></i>
+                        </div>
+                    </div>
+                    <div class="p-8 border-b lg:border-r hover:bg-slate-100">
+                        <div class="max-w-md text-center">
+                            <div class="flex items-center justify-center w-16 h-16 mx-auto mb-4 sm:w-16 sm:h-16">
+                                <img src="./images/criminal.png" alt="">
+                            </div>
+                            <h6 class="mb-2 font-bold text-3xl leading-5">Criminal Law</h6>
+                            <p class="mb-4 text-sm text-gray-900">
+                                Storage shed, troughs feed bale manure, is garden wheat oats at augers. Bulls at rose
+                                garden cucumbers mice sunflower wheat in pig.
+                            </p>
+                            <i class="fa-solid fa-circle-arrow-right fa-xl" style="color: #B68C5A;"></i>
+                        </div>
+                    </div>
+                    <div class="p-8 border-b sm:border-r lg:border-r-0 hover:bg-slate-100">
+                        <div class="max-w-md text-center">
+                            <div
+                                class="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-16 sm:h-16">
+                                <img src="./images/child.png" alt="">
+                            </div>
+                            <h6 class="mb-2 font-bold text-3xl leading-5">Child Support</h6>
+                            <p class="mb-4 text-sm text-gray-900">
+                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium rem aperiam,
+                                eaque ipsa quae. Sit error voluptatem.
+                            </p>
+                            <i class="fa-solid fa-circle-arrow-right fa-xl" style="color: #B68C5A;"></i>
+                        </div>
+                    </div>
+                    <div class="p-8 border-b lg:border-b-0 lg:border-r hover:bg-slate-100">
+                        <div class="max-w-md text-center">
+                            <div class="flex items-center justify-center w-16 h-16 mx-auto mb-4 sm:w-16 sm:h-16">
+                                <img src="./images/education.png" alt="">
+                            </div>
+                            <h6 class="mb-2 font-bold text-3xl leading-5">Education Law</h6>
+                            <p class="mb-4 text-sm text-gray-900">
+                                Storage shed, troughs feed bale manure, is garden wheat oats at augers. Bulls at rose
+                                garden cucumbers mice sunflower wheat in pig.
+                            </p>
+                            <i class="fa-solid fa-circle-arrow-right fa-xl" style="color: #B68C5A;"></i>
+                        </div>
+                    </div>
+                    <div class="p-8 border-b sm:border-b-0 sm:border-r hover:bg-slate-100">
+                        <div class="max-w-md text-center">
+                            <div class="flex items-center justify-center w-16 h-16 mx-auto mb-4 sm:w-16 sm:h-16">
+                                <img src="./images/divorce.png" alt="">
+                            </div>
+                            <h6 class="mb-2 font-bold text-3xl leading-5">Divorce Law</h6>
+                            <p class="mb-3 text-sm text-gray-900">
+                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium rem aperiam,
+                                eaque ipsa quae. Sit error voluptatem.
+                            </p>
+                            <i class="fa-solid fa-circle-arrow-right fa-xl" style="color: #B68C5A;"></i>
+                        </div>
+                    </div>
+                    <div class="p-8 hover:bg-slate-100">
+                        <div class="max-w-md text-center">
+                            <div
+                                class="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-16 sm:h-16">
+                                <img src="./images/tax.png" alt="">
+                            </div>
+                            <h6 class="mb-2 font-bold text-3xl leading-5">Tax Law</h6>
+                            <p class="mb-3 text-sm text-gray-900">
+                                Storage shed, troughs feed bale manure, is garden wheat oats at augers. Bulls at rose
+                                garden cucumbers mice sunflower wheat in pig.
+                            </p>
+                            <i class="fa-solid fa-circle-arrow-right fa-xl" style="color: #B68C5A;"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ------------------feature-part-end-------------------- -->
+        <!-- ------------------review-part-start-------------------- -->
+        <!-- ----review-title--- -->
+        <div class="max-w-xl mb-10 md:mx-auto text-center lg:max-w-2xl md:mb-12">
+            <h2
+                class="max-w-lg mb-6 mt-8 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
+                <span class="relative inline-block">
+                    <svg viewBox="0 0 52 24" fill="currentColor"
+                        class="absolute top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-blue-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block">
+                        <defs>
+                            <pattern id="18302e52-9e2a-4c8e-9550-0cbb21b38e55" x="0" y="0" width=".135" height=".30">
+                                <circle cx="1" cy="1" r=".7"></circle>
+                            </pattern>
+                        </defs>
+                        <rect fill="url(#18302e52-9e2a-4c8e-9550-0cbb21b38e55)" width="52" height="24"></rect>
+                    </svg>
+                    <span class="relative garamond text-5xl">What Our Client Say</span>
+                </span>
+            </h2>
+            <p class="text-base text-gray-700 md:text-lg">
+                There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                alteration in some form, by injected humour.
+            </p>
+        </div>
+        <!-- ----review-content------ -->
+        <section class="max-w-screen-2xl mx-auto">
+            <div id="carouselDarkVariant" class="relative" data-te-carousel-init data-te-ride="carousel">
+                <!-- Carousel indicators -->
+                <div class="absolute inset-x-0 bottom-0 z-[2] mx-[15%] mb-4 flex list-none justify-center p-0"
+                    data-te-carousel-indicators>
+                    <button data-te-target="#carouselDarkVariant" data-te-slide-to="0" data-te-carousel-active
+                        class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-black bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button data-te-target="#carouselDarkVariant"
+                        class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-black bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+                        data-te-slide-to="1" aria-label="Slide 1"></button>
+                    <button data-te-target="#carouselDarkVariant"
+                        class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-black bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+                        data-te-slide-to="2" aria-label="Slide 1"></button>
+                </div>
+
+                <!-- Carousel items -->
+                <div class="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
+                    <!-- First item -->
+                    <div class="relative float-left -mr-[100%] w-full !transform-none opacity-0 transition-opacity duration-[600ms] ease-in-out motion-reduce:transition-none lg:h-[500px]"
+                        data-te-carousel-fade data-te-carousel-item data-te-carousel-active>
+                        <img src="./images/slider-1.jpg" class="block w-full opacity-70" alt="Motorbike Smoke" />
+                        <div class="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-black md:block">
+
+                            <div class="p-4 text-center">
+                                <div class="mb-4 text-center opacity-100">
+                                    <a href="#" class="relative block">
+                                        <img alt="profil" src="./images/Ellipse 1.png"
+                                            class="mx-auto object-cover rounded-full w-24 h-24  " />
+                                    </a>
+                                </div>
+                                <div class="justify-center items-center opacity-100">
+                                    <p class="text-2xl text-gray-100 dark:text-white">
+                                        Awlad Hossain
+                                    </p>
+                                    <p class="text-xl font-light text-gray-100 dark:text-gray-100">
+                                        UIX Designer
+                                    </p>
+                                    <p
+                                        class="max-w-sm mx-auto py-4 font-light text-gray-100 text-md dark:text-gray-100 text-center">
+                                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti dolorum pariatur laborum. Vitae, neque soluta?
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- Second item -->
+                    <div class="relative float-left -mr-[100%] hidden w-full !transform-none opacity-0 transition-opacity duration-[600ms] ease-in-out motion-reduce:transition-none lg:h-[500px]"
+                        data-te-carousel-fade data-te-carousel-item>
+                        <img src="./images/slider-2.jpg" class="block w-full opacity-70" alt="Mountaintop" />
+                        <div class="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-black md:block">
+                            <div class="p-4 text-center">
+                                <div class="mb-4 text-center opacity-90">
+                                    <a href="#" class="relative block">
+                                        <img alt="profil" src="./images/John.png"
+                                            class="mx-auto object-cover rounded-full w-24 h-24  " />
+                                    </a>
+                                </div>
+                                <div class="justify-center items-center opacity-100">
+                                    <p class="text-2xl text-gray-100 dark:text-white">
+                                        John
+                                    </p>
+                                    <p class="text-xl font-light text-gray-100 dark:text-gray-100">
+                                        Developer
+                                    </p>
+                                    <p
+                                        class="max-w-sm mx-auto py-4 font-light text-gray-100 text-md dark:text-gray-100 text-center">
+                                        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots
+                                        in a piece of classical Latin literature from 45 BC, making it over 2000 years
+                                        old. Richard McClintock, a Latin professor at Hampden-Sydney College in
+                                        Virginia, looked up one of the more obscure Latin words, consectetur.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Third item -->
+                    <div class="relative float-left -mr-[100%] hidden w-full !transform-none opacity-0 transition-opacity duration-[600ms] ease-in-out motion-reduce:transition-none lg:h-[500px]"
+                        data-te-carousel-fade data-te-carousel-item>
+                        <img src="./images/slider-3.jpg" class="block w-full opacity-70" alt="Woman Reading a Book" />
+                        <div class="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-black md:block">
+                            <div class="p-4 text-center">
+                                <div class="mb-4 text-center opacity-70">
+                                    <a href="#" class="relative block">
+                                        <img alt="profil" src="./images/marina-853416.png"
+                                            class="mx-auto object-cover rounded-full w-24 h-24 " />
+                                    </a>
+                                </div>
+                                <div class="justify-center items-center opacity-100">
+                                    <p class="text-2xl text-gray-100 dark:text-white">
+                                        Marina
+                                    </p>
+                                    <p class="text-xl font-light text-gray-100 dark:text-gray-100">
+                                        Accountant
+                                    </p>
+                                    <p
+                                        class="max-w-sm mx-auto py-4 font-light text-gray-100 text-md dark:text-gray-100 text-center">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis quae dicta provident consectetur officiis fuga quo recusandae voluptatum in aut.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Carousel controls - prev item-->
+                <button
+                    class="absolute bottom-0 left-0 top-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-white opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
+                    type="button" data-te-target="#carouselDarkVariant" data-te-slide="prev">
+                    <span class="inline-block h-8 w-8 white:grayscale">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="h-6 w-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+                        </svg>
+                    </span>
+                    <span
+                        class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]">Previous</span>
+                </button>
+                <!-- Carousel controls - next item-->
+                <button
+                    class="absolute bottom-0 right-0 top-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-white opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
+                    type="button" data-te-target="#carouselDarkVariant" data-te-slide="next">
+                    <span class="inline-block h-8 w-8 white:grayscale">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="h-6 w-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                        </svg>
+                    </span>
+                    <span
+                        class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]">Next</span>
+                </button>
+            </div>
+        </section>
+
+        <!-- ------------------review-part-end-------------------- -->
+        <!-- ------------------faq-part-start-------------------- -->
+        <div class="max-w-xl mb-10 md:mx-auto text-center lg:max-w-2xl md:mb-12 lg:mt-40">
+            <h2
+                class="max-w-lg mb-6 mt-4 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
+                <span class="relative inline-block">
+                    <svg viewBox="0 0 52 24" fill="currentColor"
+                        class="absolute top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-blue-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block">
+                        <defs>
+                            <pattern id="18302e52-9e2a-4c8e-9550-0cbb21b38e55" x="0" y="0" width=".135" height=".30">
+                                <circle cx="1" cy="1" r=".7"></circle>
+                            </pattern>
+                        </defs>
+                        <rect fill="url(#18302e52-9e2a-4c8e-9550-0cbb21b38e55)" width="52" height="24"></rect>
+                    </svg>
+                    <span class="relative garamond text-4xl">Frequently Asked Any Questions</span>
+                </span>
+            </h2>
+            <p class="text-base text-gray-700 md:text-lg">
+                There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                alteration in some form, by injected humour.
+            </p>
+        </div>
+        <section class=" lg:flex max-w-screen-2xl mx-auto gap-5">
+            <div class="flex-1 items-center">
+                <div class="collapse collapse-plus bg-base-200 mt-10 mb-8 py-4">
+                    <input type="radio" name="my-accordion-3" checked="checked" />
+                    <div class="collapse-title text-xl font-semibold">
+                        1. Are application fee waivers available?
+                    </div>
+                    <div class="collapse-content">
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                            suffered alteration in some form, by injected humour, . </p>
+                    </div>
+                </div>
+                <div class="collapse collapse-plus bg-base-200 mb-8 py-4">
+                    <input type="radio" name="my-accordion-3" />
+                    <div class="collapse-title text-xl font-medium">
+                        1. Are application fee waivers available
+                    </div>
+                    <div class="collapse-content">
+                        <p>hello</p>
+                    </div>
+                </div>
+                <div class="collapse collapse-plus bg-base-200 mb-8 py-4">
+                    <input type="radio" name="my-accordion-3" />
+                    <div class="collapse-title text-xl font-medium">
+                        Click to open this one and close others
+                    </div>
+                    <div class="collapse-content">
+                        <p>hello</p>
+                    </div>
+                </div>
+                <div class="collapse collapse-plus bg-base-200 mb-8 py-4">
+                    <input type="radio" name="my-accordion-3" />
+                    <div class="collapse-title text-xl font-medium">
+                        Click to open this one and close others
+                    </div>
+                    <div class="collapse-content">
+                        <p>hello</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-1">
+                <img src="./images/faq.png" alt="">
+            </div>
+        </section>
+        <!-- ------------------faq-part-end-------------------- -->
+        <!-- ------------------contact-part-start-------------------- -->
+        <!-- -----------------contact-title----------------- -->
+        <div class="max-w-xl mb-10 md:mx-auto text-center lg:max-w-2xl md:mb-12 lg:mt-40">
+            <h2
+                class="max-w-lg mb-6 mt-8 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
+                <span class="relative inline-block">
+                    <svg viewBox="0 0 52 24" fill="currentColor"
+                        class="absolute top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-blue-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block">
+                        <defs>
+                            <pattern id="18302e52-9e2a-4c8e-9550-0cbb21b38e55" x="0" y="0" width=".135" height=".30">
+                                <circle cx="1" cy="1" r=".7"></circle>
+                            </pattern>
+                        </defs>
+                        <rect fill="url(#18302e52-9e2a-4c8e-9550-0cbb21b38e55)" width="52" height="24"></rect>
+                    </svg>
+                    <span class="relative garamond text-5xl">Contact With Us</span>
+                </span>
+            </h2>
+            <p class="text-base text-gray-700 md:text-lg">
+                There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                alteration in some form, by injected humour.
+            </p>
+        </div>
+
+        <section class=" lg:flex max-w-screen-2xl mx-auto gap-5 px-8">
+            <div class="flex-1 rounded-lg bg-gray-50 dark:bg-gray-800">
+                <div class="px-4   mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-10">
+                    <div class="grid row-gap-8 sm:row-gap-0 sm:grid-cols-2 lg:grid-cols-2">
+                        <div class="p-8 border-b sm:border-r ">
+                            <div class="max-w-md text-center">
+                                <div class="flex items-center justify-center w-16 h-16 mx-auto mb-4  sm:w-16 sm:h-16">
+                                    <img src="./images/address.png" alt="">
+                                </div>
+                                <h6 class="mb-2 font-bold text-3xl leading-5">Address</h6>
+                                <p class="mb-4 text-sm text-gray-900">
+                                    A108 Adam Street, <br> New York, NY 535022
+                                </p>
+                            </div>
+                        </div>
+                        <div class="p-8 border-b ">
+                            <div class="max-w-md text-center">
+                                <div class="flex items-center justify-center w-16 h-16 mx-auto mb-4 sm:w-16 sm:h-16">
+                                    <img src="./images/call.png" alt="">
+                                </div>
+                                <h6 class="mb-2 font-bold text-3xl leading-5">Call Us</h6>
+                                <p class="mb-4 text-sm text-gray-900">
+                                    +88 01750 00 00 00 <br> +88 01750 00 00 00
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <div class="p-8 border-b sm:border-b-0 sm:border-r">
+                            <div class="max-w-md text-center">
+                                <div class="flex items-center justify-center w-16 h-16 mx-auto mb-4 sm:w-16 sm:h-16">
+                                    <img src="./images/email.png" alt="">
+                                </div>
+                                <h6 class="mb-2 font-bold text-3xl leading-5">Email Us</h6>
+                                <p class="mb-3 text-sm text-gray-900">
+                                    info@gmail.com <br> info@gmail.com
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="p-8 ">
+                            <div class="max-w-md text-center">
+                                <div class="flex items-center justify-center w-16 h-16 mx-auto mb-4 sm:w-16 sm:h-16">
+                                    <img src="./images/time.png" alt="">
+                                </div>
+                                <h6 class="mb-2 font-bold text-3xl leading-5">Working Hours</h6>
+                                <p class="mb-3 text-sm text-gray-900">
+                                    Mon-Fri: 9AM to 5PM <br> Sunday: 9AM to 1 PM
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="flex-1">
+                <div class="p-4 py-6 rounded-lg bg-gray-50 dark:bg-gray-800 md:p-8">
+                    <form>
+                        <div class="-mx-2 md:items-center md:flex">
+                            <div class="flex-1 px-2">
+                                <label class="block mb-2 text-sm text-gray-600 dark:text-gray-200">First Name</label>
+                                <input type="text" placeholder="John "
+                                    class="block w-full px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" />
+                            </div>
+
+                            <div class="flex-1 px-2 mt-4 md:mt-0">
+                                <label class="block mb-2 text-sm text-gray-600 dark:text-gray-200">Last Name</label>
+                                <input type="text" placeholder="Doe"
+                                    class="block w-full px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" />
+                            </div>
+                        </div>
+
+                        <div class="mt-4">
+                            <label class="block mb-2 text-sm text-gray-600 dark:text-gray-200">Email address</label>
+                            <input type="email" placeholder="johndoe@example.com"
+                                class="block w-full px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" />
+                        </div>
+
+                        <div class="w-full mt-4">
+                            <label class="block mb-2 text-sm text-gray-600 dark:text-gray-200">Message</label>
+                            <textarea
+                                class="block w-full h-32 px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg md:h-56 dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
+                                placeholder="Message"></textarea>
+                        </div>
+
+                        <button
+                            class="w-full px-6 py-3 mt-4 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-[#B68C5A] rounded-lg hover:bg-[#e2ae6f] focus:outline-none focus:ring focus:bg-[#B68C5A] focus:ring-opacity-50">
+                            Send message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- ------------------contact-part-end-------------------- -->
+
+    </main>
+    <footer class="mt-10">
+        <!-- ------------------footer-part-start-------------------- -->
+        <div class="bg-gray-900 pb-5">
+            <div class="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-2xl md:px-24 lg:px-4">
+                <div class="grid row-gap-10 mb-8 lg:grid-cols-6">
+                    <div class="grid grid-cols-2 gap-5 row-gap-8 lg:col-span-4 md:grid-cols-4">
+                        <div class="md:max-w-md lg:col-span-2">
+                            <a href="/" aria-label="Go home" title="Company" class="inline-flex items-center">
+                                <img src="./images/logo.png" alt="">
+                            </a>
+                            <div class="mt-4 lg:max-w-sm">
+                                <p class="text-sm text-gray-100">
+                                    There are many variations of passages of Lorem Ipsum available, but the majority
+                                    have suffered alteration in some form, by injected humour.
+                                </p>
+
+                            </div>
+                        </div>
+                        <div>
+                            <p class="font-medium tracking-wide text-gray-100">Useful Links</p>
+                            <ul class="mt-2 space-y-2">
+                                <li>
+                                    <a href="/"
+                                        class="text-gray-200 transition-colors duration-300 hover:text-deep-purple-accent-200">Homes</a>
+                                </li>
+                                <li>
+                                    <a href="/"
+                                        class="text-gray-200 transition-colors duration-300 hover:text-deep-purple-accent-200">About
+                                        us</a>
+                                </li>
+                                <li>
+                                    <a href="/"
+                                        class="text-gray-200 transition-colors duration-300 hover:text-deep-purple-accent-200">Cases</a>
+                                </li>
+                                <li>
+                                    <a href="/"
+                                        class="text-gray-200 transition-colors duration-300 hover:text-deep-purple-accent-200">Blogs</a>
+                                </li>
+                                <li>
+                                    <a href="/"
+                                        class="text-gray-200 transition-colors duration-300 hover:text-deep-purple-accent-200">Contact
+                                        us</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <p class="font-medium tracking-wide text-gray-100 ">Contact us</p>
+                            <ul class="mt-2 space-y-2">
+                                <li>
+                                    <a href="/" class="text-gray-200 lg:text-sm">555 4th 5t NW, Washington <br>
+                                        DC 20530, United States</a>
+                                </li>
+                                <li>
+                                    <a href="/" class="text-gray-200 lg:text-sm">+88 01750 000 000 <br>
+                                        +88 01750 000 000</a>
+                                </li>
+                                <li>
+                                    <a href="/" class="text-gray-200 lg:text-sm">info@gmail.com <br>
+                                        info@gmail.com</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="md:max-w-md lg:col-span-2">
+                        <span class="text-base font-medium tracking-wide text-gray-300">Subscribe for updates</span>
+                        <p class="mt-4 text-sm text-gray-200">
+                            Subscribe for our latest & Articles. We Won’t Give You Spam Mails
+                        </p>
+                        <form class="flex flex-col mt-4 md:flex-row">
+                            <input placeholder="Email" required="" type="text"
+                                class="flex-grow w-full h-12 px-4 mb-3 transition duration-200 bg-white border border-gray-300 rounded shadow-sm appearance-none md:mr-2 md:mb-0 focus:border-deep-purple-accent-400 focus:outline-none focus:shadow-outline" />
+                            <button type="submit"
+                                class="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-[#B68C5A] hover:bg-white hover:text-black focus:shadow-outline focus:outline-none">
+                                <i class="fa-regular fa-paper-plane mr-2 hover:text-black"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ------------------footer-part-end-------------------- -->
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/tw-elements.umd.min.js"></script>
+</body>
+
+</html>
